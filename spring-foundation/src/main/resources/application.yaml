@@ -1,1 +1,4 @@
-
+custom:
+  datasource:
+    enabled: true
+debug: true
