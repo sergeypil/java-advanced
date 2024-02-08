@@ -1,4 +1,12 @@
 custom:
   datasource:
     enabled: true
-debug: true
+#debug: true
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: 'health,appinfo'
+  health:
+    show-details: always
