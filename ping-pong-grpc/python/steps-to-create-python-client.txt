@@ -1,0 +1,4 @@
+pip install grpcio grpcio-tools
+pip install protobuf
+python -m grpc_tools.protoc -I. --python_out=. --grpc_python_out=. pingpong.proto
+python pingpong_client.py
