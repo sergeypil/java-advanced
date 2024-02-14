@@ -15,14 +15,14 @@ public class PingPongServer {
     private Server server;
 
     public void startServer() {
-        int port = 5000;
+        int port = 8080;
         try {
             server = ServerBuilder
                 .forPort(port)
                 .addService(new PingPongServiceImpl())
                 .build()
                 .start();
-            logger.info("Ping Pong Server started on port 5000");
+            logger.info("Ping Pong Server started on port 8080");
 
             Runtime
                 .getRuntime()

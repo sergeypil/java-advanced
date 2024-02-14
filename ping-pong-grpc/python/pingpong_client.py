@@ -3,7 +3,7 @@ import pingpong_pb2
 import pingpong_pb2_grpc
 
 def run():
-  channel = grpc.insecure_channel('localhost:5000')
+  channel = grpc.insecure_channel('localhost:8080')
 
   stub = pingpong_pb2_grpc.PingPongServiceStub(channel)
 
