@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="net.serg.dto.AppTest" time="0.014" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\Sergey_Pil\Desktop\java-advanced\jmp-project\jmp-dto\target\test-classes;C:\Users\Sergey_Pil\Desktop\java-advanced\jmp-project\jmp-dto\target\classes;C:\Users\Sergey_Pil\.m2\repository\org\projectlombok\lombok\1.18.30\lombok-1.18.30.jar;C:\Users\Sergey_Pil\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;"/>
+    <property name="java.vm.vendor" value="OpenLogic"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://openlogic.com/"/>
+    <property name="user.timezone" value="Asia/Almaty"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Java\openlogic-openjdk-17.0.9+9-windows-x64\bin"/>
+    <property name="sun.java.command" value="C:\Users\Sergey_Pil\AppData\Local\Temp\surefire7970168167941997782\surefirebooter-20240219015829397_3.jar C:\Users\Sergey_Pil\AppData\Local\Temp\surefire7970168167941997782 2024-02-19T01-58-29_280-jvmRun1 surefire-20240219015829397_1tmp surefire_0-20240219015829397_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\Sergey_Pil\Desktop\java-advanced\jmp-project\jmp-dto\target\test-classes;C:\Users\Sergey_Pil\Desktop\java-advanced\jmp-project\jmp-dto\target\classes;C:\Users\Sergey_Pil\.m2\repository\org\projectlombok\lombok\1.18.30\lombok-1.18.30.jar;C:\Users\Sergey_Pil\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Sergey_Pil"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-10-17"/>
+    <property name="java.home" value="C:\Java\openlogic-openjdk-17.0.9+9-windows-x64"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\Sergey_Pil\Desktop\java-advanced\jmp-project\jmp-dto"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\Sergey_Pil\AppData\Local\Temp\surefire7970168167941997782\surefirebooter-20240219015829397_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.9+9-adhoc..jdk17u"/>
+    <property name="user.name" value="Sergey_Pil"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="OpenLogic-OpenJDK"/>
+    <property name="localRepository" value="C:\Users\Sergey_Pil\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://techsupport.roguewave.com/"/>
+    <property name="java.io.tmpdir" value="C:\Users\SERGEY~1\AppData\Local\Temp\"/>
+    <property name="idea.version" value="2023.3.3"/>
+    <property name="java.version" value="17.0.9"/>
+    <property name="user.dir" value="C:\Users\Sergey_Pil\Desktop\java-advanced\jmp-project\jmp-dto"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Java\openlogic-openjdk-17.0.9+9-windows-x64\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\WindowsPowerShell\Scripts;C:\Program Files\Git\cmd;C:\JAVA\openlogic-openjdk-8u342-b07-windows-64\bin;C:\JAVA\apache-maven-3.8.6\bin;C:\JAVA\gradle-7.5.1\bin;C:\Program Files\Amazon\AWSCLIV2\;C:\Users\Sergey_Pil;C:\Users\Sergey_Pil\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files\Amazon\AWSSAMCLI\bin\;C:\Program Files\PuTTY\;C:\JAVA\curl-8.5.0_5-win64-mingw\bin;C:\Program Files\MongoDB\Server\6.0\bin;C:\JAVA\occultumcli;C:\JAVA\apache-cassandra-4.0.12\bin;C:\Users\Sergey_Pil\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\Sergey_Pil\AppData\Local\Programs\Python\Python312\;C:\Users\Sergey_Pil\AppData\Local\Programs\Python\Launcher\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Sergey_Pil\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.3.3\bin;;C:\Users\Sergey_Pil\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Sergey_Pil\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Users\Sergey_Pil\AppData\Local\Programs\Rancher Desktop\resources\resources\win32\bin\;C:\Users\Sergey_Pil\AppData\Local\Programs\Rancher Desktop\resources\resources\linux\bin\;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="OpenLogic"/>
+    <property name="java.vm.version" value="17.0.9+9-adhoc..jdk17u"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="testApp" classname="net.serg.dto.AppTest" time="0.001"/>
+</testsuite>

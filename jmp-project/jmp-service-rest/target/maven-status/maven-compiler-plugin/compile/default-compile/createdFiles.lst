@@ -1,0 +1,10 @@
+net\serg\service\rest\Application.class
+net\serg\service\rest\controller\maturitylevel\ServiceControllerLevel0.class
+net\serg\service\rest\controller\maturitylevel\UserControllerLevel0.class
+net\serg\service\rest\controller\ServiceController.class
+net\serg\service\rest\config\ServiceConfig.class
+net\serg\service\rest\controller\maturitylevel\UserControllerLevel1.class
+net\serg\service\rest\controller\maturitylevel\ServiceControllerLevel1.class
+net\serg\service\rest\controller\UserController.class
+net\serg\service\rest\controller\maturitylevel\ServiceControllerLevel3.class
+net\serg\service\rest\controller\maturitylevel\UserControllerLevel3.class

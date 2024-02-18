@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>net.serg</groupId>
+    <artifactId>jmp-project</artifactId>
+    <version>1.0-SNAPSHOT</version>
+  </parent>
+  <groupId>net.serg.cloud.service.impl</groupId>
+  <artifactId>jmp-cloud-service-impl</artifactId>
+  <version>1.0-SNAPSHOT</version>
+  <name>jmp-cloud-service-impl</name>
+  <url>http://maven.apache.org</url>
+  <dependencies>
+    <dependency>
+      <groupId>net.serg.service.api</groupId>
+      <artifactId>jmp-service-api</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>net.serg.dto</groupId>
+      <artifactId>jmp-dto</artifactId>
+    </dependency>
+
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-data-jpa</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.projectlombok</groupId>
+      <artifactId>lombok</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>com.h2database</groupId>
+      <artifactId>h2</artifactId>
+      <scope>runtime</scope>
+    </dependency>
+    
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>3.8.1</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+</project>

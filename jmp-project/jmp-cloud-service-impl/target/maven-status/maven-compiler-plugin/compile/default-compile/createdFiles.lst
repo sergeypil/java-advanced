@@ -1,0 +1,16 @@
+net\serg\cloud\service\impl\config\ConversionConfig.class
+net\serg\cloud\service\impl\repository\SubscriptionRepository.class
+net\serg\cloud\service\impl\service\SubscriptionDataService.class
+net\serg\cloud\service\impl\converter\SubscriptionRequestDtoToSubscriptionConverter.class
+net\serg\cloud\service\impl\entity\User.class
+net\serg\cloud\service\impl\service\CloudUserService.class
+net\serg\cloud\service\impl\config\AppConfig.class
+net\serg\cloud\service\impl\converter\UserToUserResponseDtoConverter.class
+net\serg\cloud\service\impl\repository\UserRepository.class
+net\serg\cloud\service\impl\entity\Subscription.class
+net\serg\cloud\service\impl\service\CloudSubscriptionService.class
+net\serg\cloud\service\impl\converter\UserRequestDtoToUserConverter.class
+net\serg\cloud\service\impl\service\UserDataService.class
+net\serg\cloud\service\impl\converter\SubscriptionToSubscriptionResponseDtoConverter.class
+net\serg\cloud\service\impl\entity\User$UserBuilder.class
+net\serg\cloud\service\impl\entity\Subscription$SubscriptionBuilder.class

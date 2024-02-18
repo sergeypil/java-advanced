@@ -1,0 +1,14 @@
+C:\Users\Sergey_Pil\Desktop\java-advanced\jmp-project\jmp-cloud-service-impl\src\main\java\net\serg\cloud\service\impl\converter\SubscriptionToSubscriptionResponseDtoConverter.java
+C:\Users\Sergey_Pil\Desktop\java-advanced\jmp-project\jmp-cloud-service-impl\src\main\java\net\serg\cloud\service\impl\converter\UserToUserResponseDtoConverter.java
+C:\Users\Sergey_Pil\Desktop\java-advanced\jmp-project\jmp-cloud-service-impl\src\main\java\net\serg\cloud\service\impl\config\ConversionConfig.java
+C:\Users\Sergey_Pil\Desktop\java-advanced\jmp-project\jmp-cloud-service-impl\src\main\java\net\serg\cloud\service\impl\repository\UserRepository.java
+C:\Users\Sergey_Pil\Desktop\java-advanced\jmp-project\jmp-cloud-service-impl\src\main\java\net\serg\cloud\service\impl\config\AppConfig.java
+C:\Users\Sergey_Pil\Desktop\java-advanced\jmp-project\jmp-cloud-service-impl\src\main\java\net\serg\cloud\service\impl\entity\User.java
+C:\Users\Sergey_Pil\Desktop\java-advanced\jmp-project\jmp-cloud-service-impl\src\main\java\net\serg\cloud\service\impl\converter\UserRequestDtoToUserConverter.java
+C:\Users\Sergey_Pil\Desktop\java-advanced\jmp-project\jmp-cloud-service-impl\src\main\java\net\serg\cloud\service\impl\service\SubscriptionDataService.java
+C:\Users\Sergey_Pil\Desktop\java-advanced\jmp-project\jmp-cloud-service-impl\src\main\java\net\serg\cloud\service\impl\converter\SubscriptionRequestDtoToSubscriptionConverter.java
+C:\Users\Sergey_Pil\Desktop\java-advanced\jmp-project\jmp-cloud-service-impl\src\main\java\net\serg\cloud\service\impl\service\CloudUserService.java
+C:\Users\Sergey_Pil\Desktop\java-advanced\jmp-project\jmp-cloud-service-impl\src\main\java\net\serg\cloud\service\impl\service\UserDataService.java
+C:\Users\Sergey_Pil\Desktop\java-advanced\jmp-project\jmp-cloud-service-impl\src\main\java\net\serg\cloud\service\impl\entity\Subscription.java
+C:\Users\Sergey_Pil\Desktop\java-advanced\jmp-project\jmp-cloud-service-impl\src\main\java\net\serg\cloud\service\impl\repository\SubscriptionRepository.java
+C:\Users\Sergey_Pil\Desktop\java-advanced\jmp-project\jmp-cloud-service-impl\src\main\java\net\serg\cloud\service\impl\service\CloudSubscriptionService.java

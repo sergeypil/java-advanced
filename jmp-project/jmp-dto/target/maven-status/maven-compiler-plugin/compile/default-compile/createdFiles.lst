@@ -1,0 +1,8 @@
+net\serg\dto\SubscriptionRequestDto$SubscriptionRequestDtoBuilder.class
+net\serg\dto\SubscriptionResponseDto.class
+net\serg\dto\SubscriptionResponseDto$SubscriptionResponseDtoBuilder.class
+net\serg\dto\UserResponseDto.class
+net\serg\dto\UserRequestDto.class
+net\serg\dto\SubscriptionRequestDto.class
+net\serg\dto\UserRequestDto$UserRequestDtoBuilder.class
+net\serg\dto\UserResponseDto$UserResponseDtoBuilder.class
