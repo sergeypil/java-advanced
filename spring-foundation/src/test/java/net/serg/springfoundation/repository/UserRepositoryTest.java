@@ -29,5 +29,6 @@ public class UserRepositoryTest {
         // then
         assertThat(user).isNotNull();
         assertThat(actual.getId()).isNotNull();
+        assertThat(actual.getName()).isEqualTo(user.getName());
     }
 }

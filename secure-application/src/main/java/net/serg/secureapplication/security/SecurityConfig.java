@@ -8,6 +8,7 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.ProviderManager;
 import org.springframework.security.authentication.dao.DaoAuthenticationProvider;
+import org.springframework.security.config.annotation.method.configuration.EnableMethodSecurity;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
 import org.springframework.security.core.userdetails.UserDetailsService;
@@ -17,6 +18,7 @@ import org.springframework.security.web.SecurityFilterChain;
 
 @Configuration
 @EnableWebSecurity
+@EnableMethodSecurity
 @RequiredArgsConstructor
 public class SecurityConfig {
     
@@ -27,10 +29,7 @@ public class SecurityConfig {
     public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
         http
             .authorizeHttpRequests(authorize -> authorize
-                .requestMatchers("/about").permitAll()
-                .requestMatchers(req -> req.getServletPath().equals("/info")).hasAuthority("VIEW_INFO")
-                .requestMatchers(req -> req.getServletPath().equals("/admin")).hasAuthority("VIEW_ADMIN")
-                .anyRequest().authenticated())
+                .anyRequest().permitAll())
             .formLogin(formLogin -> formLogin
                 .loginPage("/login")
                 .failureHandler(customAuthenticationFailureHandler)
