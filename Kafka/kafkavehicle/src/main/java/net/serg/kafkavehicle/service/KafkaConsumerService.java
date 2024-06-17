@@ -18,6 +18,7 @@ public class KafkaConsumerService {
     @Autowired
     KafkaTemplate<String, VehicleDistance> transactionKafkaTemplate;
 
+    // Processing without transaction
     //    @KafkaListener(topics = "input", groupId = "group_id")
     //    public void consume(VehicleSignal signal) {
     //        log.info("Consumed signal: {}", signal);
@@ -36,19 +37,11 @@ public class KafkaConsumerService {
                 distance.setDistance(calculateDistance(signal.getCoordinateX(), signal.getCoordinateY()));
                 transactionKafkaTemplate.send("output", distance.getVehicleId(), distance);
             });
-            //ack.acknowledge(); // Auto Acknowledgment in transaction
+            //ack.acknowledge(); // Not needed since auto Acknowledgment happens in transaction
             return Boolean.TRUE;
         });
     }
-
-    @KafkaListener(topics = "output", groupId = "group_id", containerFactory = "autoAckKafkaListenerContainerFactory")
-    public void consume(List<VehicleDistance> distances) {
-        distances.forEach(distance -> log.info(
-            "Consumed vehicle: {} distance: {}",
-            distance.getVehicleId(),
-            distance.getDistance()));
-    }
-
+    
     private Double calculateDistance(Double coordinateX, Double coordinateY) {
         return Math.sqrt(Math.pow(coordinateX, 2) + Math.pow(coordinateY, 2));
     }
